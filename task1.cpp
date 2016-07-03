@@ -1,4 +1,4 @@
-﻿#include <locale.h>
+#include <locale.h>
 #include <iostream>
 
 using namespace std;
@@ -8,6 +8,7 @@ int main()
 	setlocale(LC_ALL, "rus");
 	int number, count, zero, sum;
 
+	// Необходимо было вывести меню для пользователя с возможностью выбора операции 1-4
 	cout << "определяем количество цифр и нулей в этом числе в этом числе, посчитаем их сумму и среднее арифметическое" "\n"
 		"введите число ";
 	cin >> number;
